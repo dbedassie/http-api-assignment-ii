@@ -1,0 +1,26 @@
+{
+    "name": "http-api-assignment-ii",
+    "version": "1.0.0",
+    "description": "'HTTP API Assignment II from Professor Austin Willoughby in IGME-430 at RIT.'",
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests Completed\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dbedassie/http-api-assignment-ii.git"
+    },
+    "author": "Durrell Bedassie",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/dbedassie/http-api-assignment-ii/issues"
+    },
+    "homepage": "https://github.com/dbedassie/http-api-assignment-ii#readme",
+    "devDependencies": {
+        "eslint": "^7.21.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-plugin-import": "^2.22.1"
+    }
+}
